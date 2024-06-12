@@ -1,0 +1,206 @@
+body{
+  background-color:#fdcbd3   ;
+  
+  margin: 0;
+  padding: 0;
+
+}
+
+/*footer*/
+.CreateBy{
+    
+  background-color:#eeaeb9; 
+  text-align: center;
+  height: 55px;
+}
+
+.CreateBy h3{
+  padding: 1rem 0;
+}
+
+/* menu de la pagina - enlaces -logo*/
+
+    .navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color:#eeaeb9; /*  #e1a1e7 */
+  width: 98.5%;
+  padding: 10px;}
+
+  .navbar a {
+    color: #333333;
+    text-decoration: none;
+    padding: 14px 20px;
+    list-style: none;
+      margin: 0;
+    margin: 20px 0px; 
+    padding: 10px 10px; 
+    font-size: 20px;
+}
+.navbar .nav-links {
+  display: flex;
+}
+
+.navbar .logo {
+  height: 80px;
+}
+nav a:hover {
+    background-color: #eee;
+    border-radius: 10px;
+    box-shadow: 3px 3px #333333;
+}
+nav a.active {
+    background-color: #eee; 
+    border-radius: 10px;
+     box-shadow: 3px 3px #333333;
+  }
+ 
+ 
+
+   
+  
+  .logo {
+    /* Adjust logo dimensions as needed */
+    width: 90px;
+    height: 50px;
+  }
+
+/*titulo y banner pag1*/
+
+  .main-content {
+   width: 100%;
+   text-align: center;
+  }
+  
+  .page-title {
+    font-size: 30px;
+    text-align: center; 
+    color:rgb(105, 102, 102);
+   
+  }
+  
+ 
+  
+  .banner-image {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+  
+  }     
+ 
+/*section  pag 1*/
+
+.container{
+
+  width: 100%;
+  margin-top: 7vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+}
+.container .parrafo{
+  width: 40%;
+  height: 40vh;
+  margin-left: 50px;
+
+}
+.container .imga{
+
+  width: 40%;
+  height: 400px;
+  margin-left: 40px;
+
+
+
+}
+.container img{
+  width: 70%;
+  height: 350px;
+}
+
+
+/*Pag 3*/
+.banner-image1 {
+  width: 80%;
+  height: 500px;
+  object-fit: cover;
+
+} 
+.contentpag3{
+width: 80%;
+padding-left :  150px  ;
+}
+
+.Contact{
+  display: flex;
+  justify-content:space-around ;
+}
+
+.email .phone{
+  font-size: 15px;
+}
+
+
+/*pag 4 -Information*/
+
+/**/
+.layout {
+  margin: 20px auto;
+  width: 90%;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+ 
+}
+
+table{
+  width: 60%;
+  border-collapse: collapse;
+ 
+}
+th, td {
+  text-align: center;
+  border: 1px solid #030303;
+  padding: 30px;
+  text-align: center;
+}
+
+th{
+  background-color: rgb(189, 183, 183);
+}
+
+/*Pag 5 list*/
+
+.Modulo1{
+  display: flex;
+  justify-content: center;
+  border: 1px solid #030303;
+  margin: 10px 220px;
+  
+}
+.modulos{
+
+  width: 100%; 
+}
+.modulos .List{
+  padding: 50px;
+  width: 40%;
+  height: 40vh;
+  
+
+}
+.modulos .imagM{
+  padding: 50px 0px;
+  width: 30%;
+  height: 300px;
+  margin-left: 40px;
+
+
+
+}
+.modulos img{
+  width: 80%;
+  height: 300px;
+}
